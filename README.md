@@ -32,6 +32,8 @@ Currently, the AI is trained to classify the following categories:
 
 ## How to run it
 
+### video tutorial: https://drive.google.com/file/d/14HE-HPBqi9pHs0TZfO-yHrvXtmTn2sHK/view?usp=sharing
+
 **1. Start the Docker container**
 
 You need to mount this project folder into your docker container so it can access the model and code. Run this in your Jetson's terminal:
