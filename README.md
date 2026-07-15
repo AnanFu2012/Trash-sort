@@ -40,9 +40,8 @@ cd ~/jetson-inference
 You need to mount this project folder into your docker container so it can access the model and code. Run this in your Jetson's terminal:
 
 ```bash
-cd ~/jetson-inference
+cd ~/jetson-inference./docker/run.sh --volume /path/to/your/Trash-sort:/Trash-sort
 ```
-./docker/run.sh --volume /path/to/your/Trash-sort:/Trash-sort```
 (Note: Change /path/to/your/Trash-sort to wherever you cloned this repository!)
 
 2. Run the Web UI
