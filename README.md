@@ -2,14 +2,12 @@
 
 Hey there! This is a small AI side project I put together to recognize and sort garbage in real-time. It runs on a Jetson Orin and uses a standard USB webcam. It's nothing crazy, but it does a pretty good job at telling you if an item goes in the recycling bin or not.
 
-### Key features
+### 🌟 Key Features
 * Real-time AI Vision: Processes the live webcam feed on the fly using the Jetson's GPU.
-
 * Web-based UI: View the live camera stream and AI predictions straight from any web browser on your local network.
-
 * Lightweight & Fast: Uses an optimized ONNX model so it runs super smoothly without lagging.
-
 * Clean Setup: Everything runs contained inside a Docker environment, keeping your board's main system completely clean.
+  
 
 ### 🔍 What can it recognize?
 Currently, the AI is trained to classify the following categories:
