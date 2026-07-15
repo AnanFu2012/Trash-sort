@@ -35,7 +35,7 @@ Currently, the AI is trained to classify the following categories:
 **1. Start the Docker container**
 ```bash
 cd ~/jetson-inference
-./docker/run.sh
+./docker/run.sh --volume ~/Trash-sort:/Trash-sort
 ```
 You need to mount this project folder into your docker container so it can access the model and code. Run this in your Jetson's terminal:
 
