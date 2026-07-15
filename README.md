@@ -14,14 +14,19 @@ You need to mount this project folder into your docker container so it can acces
 
 ```bash
 cd ~/jetson-inference
+```
 ./docker/run.sh --volume /path/to/your/Trash-sort:/Trash-sort```
 (Note: Change /path/to/your/Trash-sort to wherever you cloned this repository!)
 
 2. Run the Web UI
 Once you are inside the container (your terminal prompt will change), navigate to the folder and start the Python server:
-```cd /Trash-sort
-python3 web_ui.py```
+```bash
+cd /Trash-sort
+python3 web_ui.py
+```
 3. See it in action
 Open a web browser on your computer (make sure you are connected to the same local network as the Jetson) and go to:
-```http://<your-jetson-IP>:8080```
+```bash
+http://<your-jetson-IP>:8080
+```
 Just hold an item in front of the camera, and the UI will update in real-time. Feel free to mess around with the code or swap out the model. Have fun!
