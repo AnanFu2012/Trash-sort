@@ -33,6 +33,10 @@ Currently, the AI is trained to classify the following categories:
 ## How to run it
 
 **1. Start the Docker container**
+```bash
+cd ~/jetson-inference
+./docker/run.sh
+```
 You need to mount this project folder into your docker container so it can access the model and code. Run this in your Jetson's terminal:
 
 ```bash
