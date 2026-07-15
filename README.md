@@ -4,13 +4,13 @@ Hey there! This is a small AI side project I put together to recognize and sort 
 
 ## Key features
 
--Real-time AI Vision: Processes the live webcam feed on the fly using the Jetson's GPU.
+* Real-time AI Vision: Processes the live webcam feed on the fly using the Jetson's GPU.
 
--Web-based UI: View the live camera stream and AI predictions straight from any web browser on your local network.
+* Web-based UI: View the live camera stream and AI predictions straight from any web browser on your local network.
 
--Lightweight & Fast: Uses an optimized ONNX model so it runs super smoothly without lagging.
+* Lightweight & Fast: Uses an optimized ONNX model so it runs super smoothly without lagging.
 
--Clean Setup: Everything runs contained inside a Docker environment, keeping your board's main system completely clean.
+* Clean Setup: Everything runs contained inside a Docker environment, keeping your board's main system completely clean.
 
 ## What you need
 * A NVIDIA Jetson (I'm using the Orin)
