@@ -11,6 +11,9 @@ Hey there! This is a small AI side project I put together to recognize and sort 
 * Lightweight & Fast: Uses an optimized ONNX model so it runs super smoothly without lagging.
 
 * Clean Setup: Everything runs contained inside a Docker environment, keeping your board's main system completely clean.
+* 
+<img width="2558" height="1427" alt="image" src="https://github.com/user-attachments/assets/8e520b32-bffa-48ab-9987-18ec8dc09d33" />
+
 
 ## What you need
 * A NVIDIA Jetson (I'm using the Orin)
