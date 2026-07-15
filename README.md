@@ -20,12 +20,10 @@ cd ~/jetson-inference
 2. Run the Web UI
 Once you are inside the container (your terminal prompt will change), navigate to the folder and start the Python server:
 
-Bash
 cd /Trash-sort
 python3 web_ui.py
+
 3. See it in action
 Open a web browser on your computer (make sure you are connected to the same local network as the Jetson) and go to:
 
-Plaintext
 http://<your-jetson-IP>:8080
-Just hold an item in front of the camera, and the UI will update in real-time. Feel free to mess around with the code or swap out the model. Have fun!
