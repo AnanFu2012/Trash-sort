@@ -2,7 +2,7 @@
 
 Hey there! This is a small AI side project I put together to recognize and sort garbage in real-time. It runs on a Jetson Orin and uses a standard USB webcam. It's nothing crazy, but it does a pretty good job at telling you if an item goes in the recycling bin or not.
 
-## Key features
+### Key features
 
 * Real-time AI Vision: Processes the live webcam feed on the fly using the Jetson's GPU.
 
@@ -11,8 +11,21 @@ Hey there! This is a small AI side project I put together to recognize and sort 
 * Lightweight & Fast: Uses an optimized ONNX model so it runs super smoothly without lagging.
 
 * Clean Setup: Everything runs contained inside a Docker environment, keeping your board's main system completely clean.
-* 
-<img width="2558" height="1427" alt="image" src="https://github.com/user-attachments/assets/8e520b32-bffa-48ab-9987-18ec8dc09d33" />
+
+### 🔍 What can it recognize?
+Currently, the AI is trained to classify the following categories:
+* **Cardboard** (Boxes, shipping packaging)
+* **Glass** (Bottles, jars)
+* **Metal** (Soda cans, tin cans)
+* **Paper** (Newspapers, office paper)
+* **Plastic** (Water bottles, food containers)
+* **General Trash** (Items that don't belong in the recycling bin)
+  
+<p align="center">
+  <img width="45%" alt="image1" src="https://github.com/user-attachments/assets/8e520b32-bffa-48ab-9987-18ec8dc09d33" />
+  <img width="45%" alt="image2" src="https://github.com/user-attachments/assets/58f8730f-d941-4ed7-a23e-5b01f8e03097" />
+</p>
+
 
 
 ## What you need
