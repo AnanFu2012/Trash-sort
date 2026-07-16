@@ -32,7 +32,7 @@ Currently, the AI is trained to classify the following categories:
 
 ## How to run it
 
-### video tutorial: https://drive.google.com/file/d/14HE-HPBqi9pHs0TZfO-yHrvXtmTn2sHK/view?usp=sharing
+### Video tutorial: https://drive.google.com/file/d/14HE-HPBqi9pHs0TZfO-yHrvXtmTn2sHK/view?usp=sharing
 
 **1. Start the Docker container**
 
